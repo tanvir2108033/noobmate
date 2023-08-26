@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(177, 187, 178);
+    margin: 10px;
+    background-image: url(images/photo_2023-08-25_11-02-33.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+    min-height: 100vh;
+}
+header{
+    position: relative;
+    top:0;
+    width: 100%;
+    font-size: 22px;
+    background-color: #33333346;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lo{
+    float: left;
+    border: 2px;
+    
+    position: absolute;
+    top: .5px;
+    
+    left: 1px;
+}
+
+
+.navigation ul{
+    list-style-type: none;
+    float: right;
+   
+}
+.navigation a{
+    color:  rgb(61, 61, 4);
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.navigation a:hover{
+    background-color: rgba(255, 99, 71, 0.584);
+    font-size: .89em;
+    color:black;
+    cursor: pointer;
+
+}
+.navigation li{
+   
+    display: inline-block;
+}
+.centerd {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    font-family: 'monaco';
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 
+    5px 5px 15px rgb(0, 0, 0), 
+    -5px 5px 15px rgb(0, 0, 0), 
+    5px -5px 15px black, 
+    -5px -5px 15px black;
+    
+     display: block;
+
+
+  }
+  button {
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: 'Garamond';
+    font-weight: bolder;
+    height: 92px;
+    width: 200px;
+    background-color:rgba(255, 228, 196, 0.544);
+    font-size: 25; 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+}
+button:hover{
+    background-color: rgba(255, 99, 71, 0.558);
+    font-size: 1.7em;
+    color:black;
+    cursor: pointer;
+    text-decoration: underline ;
+    font-weight: bold;
+}
+button:active{
+    background-color: gray;
+    font-size: 1.1em;
+    color: white;
+    cursor: pointer;
+}
+footer{
+   height: 2.5cm;
+    box-align: center;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer ul{
+   float: left;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+
+}
+footer li{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    overflow: hidden;
+    
+}
+footer a{
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+#footdiv{
+    font-size: 13px;
+    text-align: center;
+    display: inline;
+}
+#footright{
+    text-align: right;
+}
+
+
+
+
+

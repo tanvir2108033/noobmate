@@ -1,0 +1,31 @@
+header{
+    position: relative;
+    top:0;
+    width: 100%;
+    font-size: 22px;
+    background-color: #33333346;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    background-color: grey;
+}
+
+nav a {
+    color: #fff;
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+
+
+}
+
+nav a:hover{
+    background-color: tomato;
+    font-size: .89em;
+    color:black;
+    cursor: pointer;
+}

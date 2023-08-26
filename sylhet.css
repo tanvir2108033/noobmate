@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+  }
+
+  header {
+
+ background-image: url('images/sylhet.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+header h1 {
+  padding-top: 80px;
+}
+
+  nav ul {
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.622);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  nav ul li a {
+    
+    color: white;
+    text-decoration: none;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  #section {
+    margin:auto;
+    border: 2px;
+  }
+
+  #tour1{
+    border: 2px;
+  }
+ 
+a{
+  color: white;
+}
+
+  a:hover{
+    cursor: pointer;
+    size: 1.1em;
+    background-color: aqua;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+  }

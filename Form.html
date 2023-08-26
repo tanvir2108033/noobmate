@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel & Tastes</title>
+    <link rel="icon" href="logo 1.png">
+    <link rel="stylesheet" href="common.css">
+</head>
+ <body style="background-color: tomato;">
+    <header>
+        <h2><a href="#" class="logo"><img src="images/logo 1.png" alt="logo" id="lo" height="70px" width="65px"></a></h2>
+        <div class="navigation">
+       <a href="index.html">Home</a>
+       <a href="placetogo.html">Place to go</a>
+       <a href="#">Services</a>
+       <a href="#">Contact Us</a>
+       </div>
+    </header>
+    <h1 style="text-align: center;">Sylhet Tourist Form</h1>
+    <span style="border: 2px;">
+        <form action="index.php" method="post" id="F" enctype="multipart/form-data" style="text-align: center; font-family: 'Times New Roman'; font: bold; color: white;">
+    
+            <label for="Fname">First name</label> &nbsp;
+            <input type="text" id="Fname" placeholder="Input your First name" required><br>
+            <label for="lname">Last name</label> &nbsp;
+            <input type="text" id="lname" placeholder="Input your Last name" required><br>
+    
+            <label for="Email"> Email </label> &nbsp;
+            <input type="email" id="Email" placeholder="abc@gmail.com" required><br>
+    
+            <label for="Date of Birth">Date of Birth</label> &nbsp;
+            <input type="date" id="Date of Birth" required><br>
+            <br>
+    
+            <label for="Phone">Phone #:</label>
+            <input type="tel" id="Phone" placeholder="+880123xx"><br>
+    
+            <label for="qtty">Number of person </label>
+            <input type="number" id="qtty" min="0"><br>
+    
+            <label for="file">Your NID picture</label><br>
+            <input type="file" id="file" accept="image/png, image/jpg"><br>
+    
+            <br>
+            <textarea name="text" id="Massage" cols="30" rows="10" placeholder="Give us your thoughts."></textarea><br>
+            <input type="reset" id="s">
+            <input type="submit" name="submit" id="s" target="_blank">
+    
+        </form>
+    </span>
+    
+ </body>
+</html>
